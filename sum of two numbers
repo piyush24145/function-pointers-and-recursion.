@@ -1,0 +1,20 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+int add(int a,int b ){ //function declare 
+    return a+b;}
+int mul(int a,int b){
+    return a*b;
+}
+int main() {
+int a,b;
+printf("enter a:");
+scanf("%d",&a);
+printf("enter b:");
+scanf("%d",&b);
+int sum=add(a,b);  // function call
+printf("%d\n",sum);
+int product=mul(a,b);
+printf("%d",product);
+
+    return 0;
+}
