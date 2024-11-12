@@ -1,0 +1,19 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int a,b,temp;
+    printf("enter a:");  //before using swap concept
+    scanf("%d",&a);
+    printf("enter b:");
+    scanf("%d",&b);
+    temp=a;
+    a=b;
+    b=temp;
+    
+   
+    printf("value of a is %d\n",a);  //after using swap concept
+    printf("value of b is %d\n",b);
+
+    return 0;
+}
