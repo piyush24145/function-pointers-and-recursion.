@@ -1,0 +1,14 @@
+#include <stdio.h>
+void decreasing(int n){  
+    if(n==0)return ;
+    printf("%d\n",n);
+       decreasing(n-1);
+        printf("%d\n",n);
+        return;
+}
+int main (){
+    int n;        // 5 
+    printf("enter n:");
+    scanf("%d",&n);
+    decreasing(n); // call function 5 
+    return 0;}
