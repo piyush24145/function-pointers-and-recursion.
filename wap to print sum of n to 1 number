@@ -1,0 +1,16 @@
+#include <stdio.h>
+void sum(int n,int s){     // sum(int 5 ,int 0) 
+    if(n==0){
+   printf("%d\n",s);
+    return ;
+    }
+       sum(n-1,s+n);  // recursive call
+        return;}
+
+int main (){
+    int n;        // 5 
+    printf("enter n:");   //enter 5
+    scanf("%d",&n);  // 5 take
+    sum(n,0); // call function 5 
+    return 0;
+}
